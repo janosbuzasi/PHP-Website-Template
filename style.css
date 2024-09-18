@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: orange; /* Hintergrundfarbe für den gesamten Bildschirm */
     color: black;
     text-align: center;
 }
@@ -12,9 +12,12 @@ body {
 header {
     background-color: #333;
     color: white;
+    display: flex; /* Flexbox für die Anordnung */
+    justify-content: space-between; /* Platz zwischen Titel und Burger-Menü */
+    align-items: center; /* Vertikale Ausrichtung */
     padding: 20px;
     position: relative;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 /* Burger-Menü-Icon rechts unten platzieren */
@@ -23,7 +26,7 @@ header {
     cursor: pointer;
     position: absolute;
     right: 20px; /* Nach rechts verschoben */
-    bottom: -20px; /* Nach unten verschoben */
+    bottom: 10px; /* Nach unten verschoben, aber innerhalb des Headers */
 }
 
 /* Navigation */
@@ -50,7 +53,9 @@ nav ul li a {
 /* Body-Stil (Main-Bereich) */
 main {
     padding: 50px;
+    background-color: white; /* Hintergrundfarbe auf Weiß gesetzt */
     font-size: 30px; /* Body-Textgröße */
+    color: black; /* Textfarbe bleibt Schwarz */
 }
 
 /* Footer-Stil */
