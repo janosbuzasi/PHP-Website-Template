@@ -22,7 +22,7 @@ header {
     cursor: pointer;
     position: absolute;
     left: 20px;
-    top: 20px;
+    bottom: 20px;
 }
 
 /* Navigation */
