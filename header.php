@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($title) ? $title : 'WEBTRASH.CH'; ?></title>
+    <title>
+        <?php
+        // Wenn $title existiert, diesen verwenden, sonst die Domain anzeigen
+        echo isset($title) ? $title : $_SERVER['HTTP_HOST'];
+        ?>
+    </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- Header-Bereich mit Burger-Menü -->
     <header>
-        <h1>WEBTRASH.CH</h1>
+        <h1>
+            <?php
+            // Wenn $title existiert, diesen verwenden, sonst die Domain anzeigen
+            echo isset($title) ? $title : $_SERVER['HTTP_HOST'];
+            ?>
+        </h1>
         <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
         <nav id="menu">
             <ul>
