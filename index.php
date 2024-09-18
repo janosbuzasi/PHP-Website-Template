@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEBTRASH.CH</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-            padding: 50px;
+    <script>
+        // AJAX zum dynamischen Laden der CSS-Datei
+        function loadCSS(filename) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', filename, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var style = document.createElement('style');
+                    style.textContent = xhr.responseText;
+                    document.head.appendChild(style);
+                }
+            };
+            xhr.send();
         }
-        h1 {
-            font-size: 50px;
-            color: #333;
-        }
-        p {
-            font-size: 24px;
-            color: #555;
-        }
-    </style>
+
+        // Beim Laden der Seite das CSS laden
+        window.onload = function() {
+            loadCSS('style.css'); // Hier wird die style.css geladen
+        };
+    </script>
 </head>
 <body>
 
@@ -32,6 +36,18 @@
     // Englische Begrüßung
     echo "<p>Welcome to our website!</p>";
     ?>
+
+    <!-- Footer mit dynamischem Copyright -->
+    <footer>
+        <p>
+            <?php
+            // Dynamisch das aktuelle Jahr und die Domain ausgeben
+            $domain = $_SERVER['HTTP_HOST']; // Ermittelt die Domain
+            $jahr = date("Y"); // Holt das aktuelle Jahr
+            echo "&copy; $jahr $domain. Alle Rechte vorbehalten.";
+            ?>
+        </p>
+    </footer>
 
 </body>
 </html>
