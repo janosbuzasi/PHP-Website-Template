@@ -10,8 +10,8 @@
 
     <!-- Header-Bereich mit Burger-Menü -->
     <header>
-        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
         <h1>WEBTRASH.CH</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
         <nav id="menu">
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -20,3 +20,14 @@
             </ul>
         </nav>
     </header>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.classList.contains('active')) {
+                menu.classList.remove('active');
+            } else {
+                menu.classList.add('active');
+            }
+        }
+    </script>
