@@ -1,16 +1,18 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #e0f7fa;
-    padding: 30px;
+    background-color: orange; /* Hintergrundfarbe auf Orange gesetzt */
+    padding: 50px;
+    font-size: 30px; /* Schriftgröße für den Body auf 30px gesetzt */
+    color: black; /* Standardfarbe für Text auf Schwarz gesetzt */
 }
 
 h1 {
-    font-size: 20px;
-    color: #00796b;
+    font-size: 20px; /* Schriftgröße für H1 auf 20px gesetzt */
+    color: black; /* H1 Textfarbe ebenfalls auf Schwarz gesetzt */
 }
 
 p {
-    font-size: 12px;
-    color: #004d40;
+    font-size: 12px; /* Schriftgröße für p auf 12px gesetzt */
+    color: black; /* p Textfarbe auf Schwarz gesetzt */
 }
