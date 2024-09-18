@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEBTRASH.CH</title>
+    <title><?php echo isset($title) ? $title : 'WEBTRASH.CH'; ?></title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
