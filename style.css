@@ -14,11 +14,11 @@ header {
     color: white;
     padding: 20px;
     position: relative;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .menu-toggle {
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
     position: absolute;
     left: 20px;
@@ -43,7 +43,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* Body-Stil (Main-Bereich) */
