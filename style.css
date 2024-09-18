@@ -14,11 +14,16 @@ header {
     color: white;
     display: flex;
     flex-direction: column; /* Titel und Menü übereinander anordnen */
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Elemente an der linken Seite ausrichten */
     padding: 20px;
     position: relative;
     font-size: 30px;
+}
+
+/* Anpassung der Schriftgröße des Titels */
+header h1 {
+    font-size: 24px; /* Angemessene Schriftgröße für den Titel */
+    margin: 0;
 }
 
 /* Burger-Menü-Icon links unter dem Titel */
@@ -27,6 +32,7 @@ header {
     cursor: pointer;
     margin-top: 10px; /* Platz unter dem Titel */
     position: relative;
+    align-self: flex-start; /* Burger-Menü links unter dem Titel */
 }
 
 /* Navigation - absolut positioniert, damit es Layout nicht beeinflusst */
