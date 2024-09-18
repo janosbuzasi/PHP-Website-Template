@@ -12,6 +12,11 @@ h1 {
     color: black; /* H1 Textfarbe ebenfalls auf Schwarz gesetzt */
 }
 
+.welcome-text {
+    font-size: 24px; /* Spezifischere Schriftgröße für den Willkommen-Text */
+    color: black; /* Textfarbe auf Schwarz gesetzt */
+}
+
 p {
     font-size: 12px; /* Schriftgröße für p auf 12px gesetzt */
     color: black; /* p Textfarbe auf Schwarz gesetzt */
