@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -15,9 +14,9 @@
         <h1>WEBTRASH.CH</h1>
         <nav id="menu">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Über uns</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about_us.php">Über uns</a></li>
+                <li><a href="contact.php">Kontakt</a></li>
             </ul>
         </nav>
     </header>
