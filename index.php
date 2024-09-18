@@ -27,14 +27,14 @@
 </head>
 <body>
 
-    <h1>WEBTRASH.CH</h1>
+        <h1>WEBTRASH.CH</h1>
 
     <?php
     // Deutschsprachige Begrüßung
-    echo "<p>Willkommen auf unserer Seite!</p>";
+    echo '<p class="welcome-text">Willkommen auf unserer Seite!</p>';
 
     // Englische Begrüßung
-    echo "<p>Welcome to our website!</p>";
+    echo '<p class="welcome-text">Welcome to our website!</p>';
     ?>
 
     <!-- Footer mit dynamischem Copyright -->
