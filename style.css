@@ -37,13 +37,13 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 14px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 /* Body-Stil (Main-Bereich) */
