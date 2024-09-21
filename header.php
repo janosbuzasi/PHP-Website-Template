@@ -43,7 +43,6 @@
             <li><a href="change_style.php">Style ändern</a></li>
         </ul>
     </nav>
-    <button id="reset-style" onclick="resetStyles()">Reset Styles</button> <!-- Reset-Button -->
 </header>
 
 
@@ -67,15 +66,3 @@
     });
 </script>
 
-<script>
-function resetStyles() {
-    // Alle benutzerdefinierten Stile zurücksetzen
-    var elements = document.querySelectorAll('*'); // Alle Elemente auf der Seite auswählen
-    elements.forEach(function(element) {
-        element.removeAttribute('style'); // Inline-Stile entfernen
-        element.className = ''; // Alle Klassen entfernen
-    });
-    // Alternativ: Seite neu laden
-    // location.reload(); // Seite neu laden, um die Original-CSS-Stile anzuwenden
-}
-</script>
