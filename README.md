@@ -19,10 +19,10 @@ This is a PHP-based website template that allows dynamic styling and includes re
 ├── change_style.php   # Page to switch styles
 ├── header.php         # Reusable header
 ├── footer.php         # Reusable footer
-├── style.css          # Default CSS file
-├── styles/            # Directory for additional styles
-│   ├── classic_style.css
-│   └── yellow_style.css
+├── styles/            # Directory for all styles
+│   ├── style.css          # Default CSS file
+│   ├── classic_style.css  # CSS file for classic style
+│   └── yellow_style.css   # CSS file for yellow style
 └── README.md          # This README file
 ```
 
@@ -52,15 +52,13 @@ The website consists of four main pages:
 - **Footer (`footer.php`)**: The footer is included on all pages and shows dynamic copyright information with the year and domain.
 
 ### Dynamic Style Switching
-
-- **Style Selection**: The user can select a style from the `change_style.php` page. The selected style is saved in a cookie, which is used to load the corresponding CSS file across all pages.
+- **Style Selection**: The user can select a style from the change_style.php page. The selected style is saved in a cookie, which is used to load the corresponding CSS file across all pages.
 - **Auto-Refresh**: After selecting a style, the page automatically refreshes to apply the new style.
 
 ### Styling (CSS)
+All styles are stored in the styles directory, with the following options:
 
-All pages use a default central `style.css` file, along with additional style options:
-
-- **Default (`style.css`)**: The main stylesheet with basic styling.
+- **Default (`styles/style.css`)**: The main stylesheet with basic styling.
 - **Classic (`styles/classic_style.css`)**: A classic-style layout with neutral colors.
 - **Yellow (`styles/yellow_style.css`)**: A bright yellow-themed layout.
 
