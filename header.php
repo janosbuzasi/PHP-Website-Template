@@ -6,7 +6,7 @@
     <title>
         <?php
         $domain = $_SERVER['HTTP_HOST'];
-        $pageTitle = isset($title) ? "$domain - $title" : $domain;
+        $pageTitle = isset($title) ? "$title | $domain" : $domain;
         echo $pageTitle;
         ?>
     </title>
@@ -31,7 +31,7 @@
     <h1>
         <?php
         // Wenn $title existiert, diesen verwenden, sonst die Domain anzeigen
-        echo isset($title) ? "$domain - $title" : $domain;
+        echo isset($title) ? "$title | $domain" : $domain;
         ?>
     </h1>
     <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div> <!-- Burger-Icon -->
