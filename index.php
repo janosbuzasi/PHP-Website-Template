@@ -6,7 +6,7 @@ require 'header.php';  // Inkludiere den Header
 <!-- Body-Bereich -->
 
 <main>
-    <h2>Home</h2>
+    <h2><?php $title ?></h2>
     <p>Willkommen auf unserer Seite?</p>
 </main>
 
