@@ -43,6 +43,7 @@
             <li><a href="change_style.php">Style ändern</a></li>
         </ul>
     </nav>
+    <button id="reset-style" onclick="resetStyles()">Reset Styles</button> <!-- Reset-Button -->
 </header>
 
 
