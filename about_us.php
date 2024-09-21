@@ -7,7 +7,7 @@ require 'header.php';  // Inkludiere den Header
 <main>
     <h2><?php $title ?></h2>
     <p>
-        <?php echo $_SERVER['HTTP_HOST']; ?> ist eine innovative Webdesign-Agentur, die sich auf kreative und maßgeschneiderte Lösungen spezialisiert hat. Wir arbeiten eng mit unseren Kunden zusammen, um ihre digitale Präsenz zu stärken.
+        <?php echo $_SERVER['HTTP_HOST']; ?> innovativ kreativ.
     </p>
 </main>
 
