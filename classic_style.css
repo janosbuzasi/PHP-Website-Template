@@ -1,0 +1,28 @@
+/* Classic Style */
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* Hintergrundfarbe weiß */
+    color: #000000; /* Textfarbe schwarz */
+}
+
+/* Header-Stil */
+header {
+    background: #000000; /* Hintergrundfarbe schwarz */
+    color: #FFFFFF; /* Schriftfarbe weiß */
+    padding: 20px;
+    font-size: 30px;
+}
+
+/* Footer-Stil */
+footer {
+    background: #000000; /* Hintergrundfarbe schwarz */
+    color: #FFFFFF; /* Schriftfarbe weiß */
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+}
