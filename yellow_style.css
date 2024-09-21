@@ -1,0 +1,28 @@
+/* Yellow Style */
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DBD56E; /* Hintergrundfarbe gelb */
+    color: #403D58; /* Textfarbe dunkel */
+}
+
+/* Header-Stil */
+header {
+    background: #403D58; /* Hintergrundfarbe dunkel */
+    color: #DBD56E; /* Schriftfarbe gelb */
+    padding: 20px;
+    font-size: 30px;
+}
+
+/* Footer-Stil */
+footer {
+    background: #403D58; /* Hintergrundfarbe dunkel */
+    color: #DBD56E; /* Schriftfarbe gelb */
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+}
