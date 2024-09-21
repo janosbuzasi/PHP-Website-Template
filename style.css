@@ -10,7 +10,7 @@ body {
 
 /* Header-Stil */
 header {
-    background-color: #333;
+    background-color: #FF5E00;
     color: white;
     display: flex;
     flex-direction: column; /* Titel und Menü übereinander anordnen */
@@ -42,7 +42,7 @@ nav {
     top: 100%; /* Platziere das Menü direkt unter dem Header */
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #FF5E00;
 }
 
 /* Navigation sichtbar machen, wenn aktiviert */
@@ -70,7 +70,7 @@ nav ul li a {
 
 /* Footer-Stil */
 footer {
-    background-color: #333;
+    background-color: #FF5E00;
     color: white;
     padding: 10px;
     position: fixed;
