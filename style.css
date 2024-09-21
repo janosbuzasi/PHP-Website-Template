@@ -10,7 +10,7 @@ body {
 
 /* Header-Stil */
 header {
-    background: linear-gradient(90deg, #FF5E00, #FFA500);
+    background: linear-gradient(90deg, #403D58, #DBD56E);
     color: white;
     display: flex;
     flex-direction: column; /* Titel und Menü übereinander anordnen */
@@ -42,7 +42,7 @@ nav {
     top: 100%; /* Platziere das Menü direkt unter dem Header */
     left: 0;
     width: 100%;
-    background: linear-gradient(90deg, #FF5E00, #FFA500);
+    background: linear-gradient(90deg, #403D58, #DBD56E);
 }
 
 /* Navigation sichtbar machen, wenn aktiviert */
@@ -70,7 +70,7 @@ nav ul li a {
 
 /* Footer-Stil */
 footer {
-    background: linear-gradient(90deg, #FF5E00, #FFA500);
+    background: linear-gradient(90deg, #403D58, #DBD56E);
     color: white;
     padding: 10px;
     position: fixed;
