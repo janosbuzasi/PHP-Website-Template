@@ -21,6 +21,13 @@ require 'header.php';  // Inkludiere den Header
             setcookie('style', $_GET['style'], time() + (86400 * 30), "/"); // Cookie für 30 Tage setzen
             echo '<p>Stil geändert! Aktualisiere die Seite, um den neuen Stil zu sehen.</p>';
         }
+
+        // Automatisches Neuladen der Seite nach einer kurzen Verzögerung
+        echo '<script>
+            setTimeout(function() {
+                window.location.href = window.location.href.split("?")[0];
+            }, 500); // Kurze Verzögerung für ein besseres Benutzererlebnis
+        </script>';
     }
 
     // Überprüfen, ob ein Stil-Cookie gesetzt ist
