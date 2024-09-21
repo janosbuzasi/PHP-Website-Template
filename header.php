@@ -19,7 +19,7 @@
         <h1>
             <?php
             // Wenn $title existiert, diesen verwenden, sonst die Domain anzeigen
-            echo isset($title) ? $title : $domain;
+            echo isset($title) ? "$domain - $title" : $domain;
             ?>
         </h1>
         <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
