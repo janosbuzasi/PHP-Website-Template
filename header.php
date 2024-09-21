@@ -16,11 +16,11 @@
 
     // Dynamisch das Stylesheet basierend auf dem Cookie einbinden
     if ($current_style === 'classic') {
-        echo '<link rel="stylesheet" href="classic_style.css">';
+        echo '<link rel="stylesheet" href="styles/classic_style.css">';
     } elseif ($current_style === 'yellow') {
-        echo '<link rel="stylesheet" href="yellow_style.css">';
+        echo '<link rel="stylesheet" href="styles/yellow_style.css">';
     } else {
-        echo '<link rel="stylesheet" href="style.css">';
+        echo '<link rel="stylesheet" href="styles/style.css">';
     }
     ?>
 </head>
