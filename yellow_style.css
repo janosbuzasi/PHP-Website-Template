@@ -6,6 +6,7 @@ body {
     padding: 0;
     background-color: #DBD56E; /* Hintergrundfarbe gelb */
     color: #403D58; /* Textfarbe dunkel */
+    text-align: center; /* Text zentiert */
 }
 
 /* Header-Stil */
