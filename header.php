@@ -10,7 +10,19 @@
         echo $pageTitle;
         ?>
     </title>
-    <link rel="stylesheet" href="style.css">
+    <?php
+    // Standardstil festlegen, falls kein Cookie gesetzt ist
+    $current_style = isset($_COOKIE['style']) ? $_COOKIE['style'] : 'default';
+
+    // Dynamisch das Stylesheet basierend auf dem Cookie einbinden
+    if ($current_style === 'classic') {
+        echo '<link rel="stylesheet" href="classic_style.css">';
+    } elseif ($current_style === 'yellow') {
+        echo '<link rel="stylesheet" href="yellow_style.css">';
+    } else {
+        echo '<link rel="stylesheet" href="style.css">';
+    }
+    ?>
 </head>
 <body>
 
@@ -28,6 +40,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about_us.php">Über uns</a></li>
                 <li><a href="contact.php">Kontakt</a></li>
+                <li><a href="change_style.php">Style ändern</a></li> <!-- Link zum Style-Ändern -->
             </ul>
         </nav>
     </header>
