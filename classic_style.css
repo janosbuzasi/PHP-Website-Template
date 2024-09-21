@@ -37,6 +37,16 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Navigation standardmäßig verstecken */
+nav {
+    display: none; /* Navigation standardmäßig verstecken */
+}
+
+/* Navigation sichtbar machen, wenn aktiv */
+nav.active {
+    display: block; /* Menü anzeigen, wenn aktiv */
+}
+
 /* Footer-Stil */
 footer {
     background: #000000; /* Hintergrundfarbe schwarz */
