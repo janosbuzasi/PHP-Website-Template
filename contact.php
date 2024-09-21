@@ -5,7 +5,7 @@ require 'header.php';  // Inkludiere den Header
 <!-- Restlicher Inhalt der Seite -->
 <!-- contact Body-Bereich -->
 <main>
-    <h2>Kontakt</h2>
+    <h2><?php $title ?></h2>
     <p>Haben Sie Fragen? Kontaktieren Sie uns per E-Mail oder rufen Sie uns an.</p>
 </main>
 
