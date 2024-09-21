@@ -1,8 +1,8 @@
 <?php
-$title = 'Über uns';
-include 'header.php';
+$title = "Über uns";
+require 'header.php';  // Inkludiere den Header
 ?>
-
+<!-- Restlicher Inhalt der Seite -->
 <!-- about_us Body-Bereich -->
 <main>
     <h2>Über uns</h2>
