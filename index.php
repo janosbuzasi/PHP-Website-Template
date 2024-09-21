@@ -1,8 +1,8 @@
 <?php
-$title = 'Kontakt';
-include 'header.php';
+$title = "Home";
+require 'header.php';  // Inkludiere den Header
 ?>
-
+<!-- Restlicher Inhalt der Seite -->
 <!-- Body-Bereich -->
 <main>
     <?php
