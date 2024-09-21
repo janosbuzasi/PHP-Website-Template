@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         <?php
-        // Wenn $title existiert, diesen verwenden, sonst die Domain anzeigen
-        echo isset($title) ? $title : $_SERVER['HTTP_HOST'];
+        $domain = $_SERVER['HTTP_HOST'];
+        $pageTitle = isset($title) ? "$domain - $title" : $domain;
+        echo $pageTitle;
         ?>
     </title>
     <link rel="stylesheet" href="style.css">
@@ -18,7 +19,7 @@
         <h1>
             <?php
             // Wenn $title existiert, diesen verwenden, sonst die Domain anzeigen
-            echo isset($title) ? $title : $_SERVER['HTTP_HOST'];
+            echo isset($title) ? $title : $domain;
             ?>
         </h1>
         <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
