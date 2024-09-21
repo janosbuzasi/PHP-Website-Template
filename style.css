@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-/* Header-Stil #403D58, #DBD56E */
+/* Header-Stil */
 header {
     background: #2b2d42;
     color: #8499B1;
@@ -45,7 +45,7 @@ nav {
     background: #2b2d42;
 }
 
-/* Navigation sichtbar machen, wenn aktiviert */
+/* Navigation sichtbar machen, wenn aktiv */
 nav.active {
     display: block; /* Menü anzeigen, wenn aktiv */
 }
@@ -66,16 +66,6 @@ nav ul li a {
     color: #8499B1;
     text-decoration: none;
     font-size: 18px;
-}
-
-/* Navigation standardmäßig verstecken */
-nav {
-    display: none; /* Navigation standardmäßig verstecken */
-}
-
-/* Navigation sichtbar machen, wenn aktiv */
-nav.active {
-    display: block; /* Menü anzeigen, wenn aktiv */
 }
 
 /* Footer-Stil */
