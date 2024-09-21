@@ -46,13 +46,22 @@
 </header>
 
 
-    <script>
-        function toggleMenu() {
-            var menu = document.getElementById("menu");
-            if (menu.classList.contains('active')) {
-                menu.classList.remove('active');
-            } else {
-                menu.classList.add('active');
-            }
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("menu");
+        if (menu.classList.contains('active')) {
+            menu.classList.remove('active');
+        } else {
+            menu.classList.add('active');
         }
-    </script>
+    }
+
+    // Prüfen, ob der Stil nach Seitenaufruf korrekt angewendet ist
+    document.addEventListener('DOMContentLoaded', function() {
+        var menu = document.getElementById("menu");
+        var currentStyle = '<?php echo $current_style; ?>';
+        if (currentStyle === 'classic' || currentStyle === 'yellow') {
+            menu.classList.remove('active');
+        }
+    });
+</script>
