@@ -6,6 +6,7 @@ body {
     padding: 0;
     background-color: #FFFFFF; /* Hintergrundfarbe weiß */
     color: #000000; /* Textfarbe schwarz */
+    text-align: center; /* Text zentiert */
 }
 
 /* Header-Stil */
