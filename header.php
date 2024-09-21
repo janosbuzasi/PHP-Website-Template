@@ -27,23 +27,24 @@
 <body>
 
     <!-- Header-Bereich mit Burger-Menü -->
-    <header>
-        <h1>
-            <?php
-            // Wenn $title existiert, diesen verwenden, sonst die Domain anzeigen
-            echo isset($title) ? "$domain - $title" : $domain;
-            ?>
-        </h1>
-        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
-        <nav id="menu">
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about_us.php">Über uns</a></li>
-                <li><a href="contact.php">Kontakt</a></li>
-                <li><a href="change_style.php">Style ändern</a></li> <!-- Link zum Style-Ändern -->
-            </ul>
-        </nav>
-    </header>
+<header>
+    <h1>
+        <?php
+        // Wenn $title existiert, diesen verwenden, sonst die Domain anzeigen
+        echo isset($title) ? "$domain - $title" : $domain;
+        ?>
+    </h1>
+    <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div> <!-- Burger-Icon -->
+    <nav id="menu"> <!-- ID sollte "menu" sein, damit JavaScript es steuert -->
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about_us.php">Über uns</a></li>
+            <li><a href="contact.php">Kontakt</a></li>
+            <li><a href="change_style.php">Style ändern</a></li>
+        </ul>
+    </nav>
+</header>
+
 
     <script>
         function toggleMenu() {
