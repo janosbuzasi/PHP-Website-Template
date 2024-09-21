@@ -68,6 +68,16 @@ nav ul li a {
     font-size: 18px;
 }
 
+/* Navigation standardmäßig verstecken */
+nav {
+    display: none; /* Navigation standardmäßig verstecken */
+}
+
+/* Navigation sichtbar machen, wenn aktiv */
+nav.active {
+    display: block; /* Menü anzeigen, wenn aktiv */
+}
+
 /* Footer-Stil */
 footer {
     background: #403D58;
