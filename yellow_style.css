@@ -16,6 +16,27 @@ header {
     font-size: 30px;
 }
 
+/* Navigation */
+nav {
+    background-color: #DBD56E; /* Navigation Hintergrund gelb */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #403D58; /* Schriftfarbe dunkel */
+    text-decoration: none;
+}
+
 /* Footer-Stil */
 footer {
     background: #403D58; /* Hintergrundfarbe dunkel */
