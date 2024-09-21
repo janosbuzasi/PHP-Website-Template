@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-/* Header-Stil #403D58, #DBD56E*/
+/* Header-Stil #403D58, #DBD56E */
 header {
     background: #403D58;
     color: #DBD56E;
@@ -53,9 +53,9 @@ nav.active {
 /* Navigation Links */
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 0 20px; /* Platz vom linken Rand hinzufügen */
     margin: 0;
-    text-align: center;
+    text-align: left; /* Text linksbündig ausrichten */
 }
 
 nav ul li {
