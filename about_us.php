@@ -3,7 +3,7 @@ $title = 'Über uns';
 include 'header.php';
 ?>
 
-<!-- Body-Bereich -->
+<!-- about_us Body-Bereich -->
 <main>
     <h2>Über uns</h2>
     <p>
