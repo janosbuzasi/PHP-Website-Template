@@ -7,7 +7,7 @@ require 'header.php';  // Inkludiere den Header
 
 <main>
     <h2><?php $title ?></h2>
-    <p>Willkommen auf unserer Seite?</p>
+    <p>Willkommen!</p>
 </main>
 
 <?php
